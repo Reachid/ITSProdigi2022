@@ -24,6 +24,7 @@ internal class Program
             string risposta = Utility.chiedi("Vuoi un'altra tabellina (S/N)? ");
             richiestaTabellina = risposta == "s"; 
         }
-        Console.WriteLine("Buona giornata!"); 
+        Console.WriteLine("Buona giornata! (Premi un tasto per uscire)");
+        Console.ReadLine();
     }   
 }
