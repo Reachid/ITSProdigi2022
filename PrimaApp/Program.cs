@@ -11,7 +11,6 @@ internal class Program
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
 
-
             string richiesta = Utility.chiedi("Che tabellina vuoi?");
 
             int baseTabellina = int.Parse(richiesta), numeroVolte = Utility.chiediNumero("Quante vuole lo vuoi cliclare? "); ;
