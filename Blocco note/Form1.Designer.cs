@@ -99,6 +99,7 @@
             txtCorpo.ScrollBars = ScrollBars.Vertical;
             txtCorpo.Size = new Size(865, 525);
             txtCorpo.TabIndex = 1;
+            txtCorpo.TextChanged += txtCorpo_TextChanged;
             // 
             // dlgApri
             // 

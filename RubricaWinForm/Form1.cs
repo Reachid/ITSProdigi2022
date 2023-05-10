@@ -46,6 +46,7 @@ namespace RubricaWinForm
             txtTelefono.Text = "";
             salva();
             ricarica();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)

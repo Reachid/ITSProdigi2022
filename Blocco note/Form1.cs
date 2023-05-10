@@ -35,5 +35,10 @@ namespace Blocco_note
                 File.WriteAllText(dlgSalva.FileName, txtCorpo.Text);
             }
         }
+
+        private void txtCorpo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
